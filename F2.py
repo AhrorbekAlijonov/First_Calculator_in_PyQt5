@@ -45,8 +45,6 @@ class Window(QWidget):
         self.btn_plus = QPushButton('+', self)
         self.btn_equal = QPushButton('=', self)
         
-        self.line_edit
-        
         self.h_box.addWidget(self.line_edit)
         
         self.h1_box.addWidget(self.btn_num_1)
